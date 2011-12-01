@@ -6,5 +6,20 @@
 
 #content {
 	margin: 0 auto;
-	width : 760px;
+	width : 520px;
+}
+
+canvas {
+	margin-bottom : 60px;
+}
+
+p {
+	text-align : right;
+	font-family : Helvetica, arial, sans-serif;
+	color : darkGray;
+	font-size : 14px;
+}
+
+a {
+	color : darkGray;
 }
