@@ -6,11 +6,22 @@
 		<!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
 	</head>
 	<body>
-		<div id="content">
+		<div id="content">			
 			<canvas id="level"></canvas>
-			<p>Use arrow keys to move and rotate pieces. 
-			<a href="test.html">Tests</a>
-			<a href="https://github.com/conzett/canvasTetris">Github Source</a></p>
+			<div id="gameover">Game Over</div>
+
+			
+				
+			<p>Use arrow keys to move and rotate pieces. P or Pause to pause.<br/><br/></p>
+
+			<p>
+			<span>Score: <span id="score"></span></span> 
+			<span>Level: <span id="level-number"></span></span> 
+			<span>FPS: <span id="fps"></span></span>
+			<br/><br/>
+			</p>		
+
+			<p><a href="test.html">Tests</a> <a href="https://github.com/conzett/canvasTetris">Github Source</a></p>
 		</div>
 	</body>
 
